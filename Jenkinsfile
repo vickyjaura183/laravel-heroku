@@ -5,7 +5,7 @@ pipeline {
   }
   environment {
     HEROKU_API_KEY = credentials('heroku-api-key')
-    IMAGE_NAME = 'vickyjaura183/jenkin-test-laravel'
+    IMAGE_NAME = 'vickyjaura183/jenkin-test-laravel2'
     IMAGE_TAG = 'latest'
     APP_NAME = 'jenkin-test-laravel'
   }
