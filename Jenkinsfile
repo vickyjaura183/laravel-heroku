@@ -31,7 +31,7 @@ pipeline {
     stage('Release the image') {
       steps {
         sh '''
-          heroku container:release web --app=laravel-jenkins-test
+          heroku container:release web --app=jenkin-test-laravel
         '''
       }
     }
